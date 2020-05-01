@@ -1,6 +1,7 @@
 # Learn-JavaScript 
 
-Important concepts of javascript explained by Akshay Saini implemented in an easy and fun way.
+Important concepts of javascript explained by Akshay Saini implemented in an easy and fun way.nn
+In this small project I have used debouncing, throttling, delegation, bubbling and many more important concepts of javascript.
 
 ## [Link to live application](https://ankitsaxena21.github.io/Learn-JavaScript-Project/)
 
