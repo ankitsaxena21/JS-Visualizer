@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to right,#8b0697, #1316b6);
+    background-image: linear-gradient(135deg, rgb(4, 19, 85) 0%, #08eeee 100%);
 }
 
 #grandparent, #parent, #child {
