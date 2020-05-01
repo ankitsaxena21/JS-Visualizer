@@ -10,6 +10,6 @@ Important concepts of javascript explained by Akshay Saini implemented in an eas
 
 ![screenshot](https://github.com/ankitsaxena21/Learn-JavaScript-Project/blob/master/Sreenshots/Screenshot_2020-05-02%20Learn%20JavaScript(1).png)
 
-## [Link to youtube tutorials](https://www.youtube.com/watch?v=aVSf0b1jVKk&list=PLlasXeu85E9eLVlWFs-nz5PKXJU4f7Fks&index=6)
+## [Link to Akshay's youtube tutorials](https://www.youtube.com/watch?v=aVSf0b1jVKk&list=PLlasXeu85E9eLVlWFs-nz5PKXJU4f7Fks&index=6)
 
 It's very easy to use.Clone the repository and run in browser.
