@@ -1,6 +1,6 @@
 # Learn-JavaScript 
 
-Important concepts of javascript explained by Akshay Saini implemented in a fun way.
+Important concepts of javascript explained by Akshay Saini implemented in an easy and fun way.
 
 ## [Link to live application](https://ankitsaxena21.github.io/Learn-JavaScript-Project/)
 
