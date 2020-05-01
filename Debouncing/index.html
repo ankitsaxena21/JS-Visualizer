@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Learn JavaScript</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#"><b>Learn JavaScript</b></a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="../Think Recursively/index.html">Thinking Recursively <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Bubbling and Trickling/index.html">Bubbling and Trickling</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="../Debouncing/index.html">Debouncing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Throttling</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <main role="main" class="col-lg-12 ml-auto mr-auto" style="max-width: 1100px;">
+                <div class="content text-center justify-content-center mr-auto">
+                    <b>
+                        <h1 class="mt-2 mb-2">Debouncing</h1>
+                        <p>Debouncing is a programming practice used to ensure that time-consuming tasks do not fire so often, that it stalls the performance of the web page. In other words, it limits the rate at which a function gets invoked</p>
+                    </b>
+                    <div class="row ml-3">
+                        <span class="input-group-text bg-secondary text-white mr-1">Input</span>
+                        <input type="text" id="letsdebounce" onkeyup="betterFunction()"
+                            placeholder="Enter text here..." />
+                        <span class=" ml-2 mt-1 input-group-text">Delay in milliseconds</span>
+                        <input type="text" class="col-sm-1 col-md-2 mt-1 ml-1 mr-3" id="delay" placeholder="delay..." />
+                        <span class="input-group-text mt-1 mr-1">Number of times keys are pressed -> </span>
+                        <button class="btn btn-primary" id="countClick">None</button>
+                    </div>
+                    <div class="card bg-light mt-4 ml-2 mr-5 col-sm-10 col-md-9">
+                        <div class="card-header">
+                            Network Calls <span id="count" class="ml-2 font-weight-bold">0</span>
+                        </div>
+                        <ul class="list-group list-group-flush" id="items">
+
+                        </ul>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

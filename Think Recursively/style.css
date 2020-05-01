@@ -1,0 +1,21 @@
+body {
+  background-image: linear-gradient(to right,#131414, #ece5ee);
+}
+
+#myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid rgb(12, 230, 238);
+    margin-bottom: 12px;
+    border-radius: 5px;
+  }
+
+  .parent {
+    padding: 10px;
+  }
+
+  .child {
+    padding: 20px;
+  }
