@@ -6,7 +6,7 @@ let countClick = document.getElementById("countClick");
 const expensive = () => {
     let p = document.createElement('li');
     p.className = "list-group-item font-weight-bold";
-    p.appendChild(document.createTextNode(`You make it throttle ${++c} times`));
+    p.appendChild(document.createTextNode(`Expensive operation performed successfully ${++c} times`));
     list.appendChild(p);
     document.getElementById("count").innerHTML = `<p>${c}</p>`
 }
