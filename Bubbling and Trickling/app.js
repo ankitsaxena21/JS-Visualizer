@@ -1,6 +1,6 @@
 //false = bubbling and true = trickling
 let trickle = document.getElementById("myCheck").checked;
-document.getElementById("myCheck").checked.addEventListener("change" , () => {
+document.getElementById("myCheck").addEventListener("change" , () => {
     if (document.getElementById("myCheck").checked){
     trickle = true;
     }else{
