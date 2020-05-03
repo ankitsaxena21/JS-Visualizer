@@ -6,7 +6,7 @@ document.getElementById("myCheck").addEventListener("change" , () => {
     }else{
     trickle = false;
     }  
-})
+});
 
 document.querySelector("#grandparent").addEventListener('click', () => {
     if (trickle) {
