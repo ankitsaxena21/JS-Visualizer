@@ -1,5 +1,11 @@
 //false = bubbling and true = trickling
-let trickle = document.getElementById("myCheck").checked;
+let trickle;
+
+if (document.getElementById("myCheck").checked){
+    trickle = true;
+}else{
+    trickle = false;
+}
 
 document.querySelector("#grandparent").addEventListener('click', () => {
     if (trickle) {
