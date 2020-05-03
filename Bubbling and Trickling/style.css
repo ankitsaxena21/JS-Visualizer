@@ -31,9 +31,9 @@ h4 {
 }
 .trickleParent {
     transition: background-color 4.8s;
-    background-color: rgb(250, 228, 27);
+    background-color: rgb(46, 19, 170);
 }
 .trickleChild {
     transition: background-color 9s;
-    background-color: rgb(248, 103, 7);
+    background-color: rgb(250, 246, 10);
 }
