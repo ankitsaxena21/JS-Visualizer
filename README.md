@@ -3,7 +3,7 @@
 Important concepts of javascript explained by Akshay Saini implemented in an easy and fun way.
 In this small project I have used debouncing, throttling, delegation, event bubbling and many more important concepts of javascript.
 
-## [Link to live application](https://ankitsaxena21.github.io/Learn-JavaScript-Project/)
+## [Link to live application](https://ankitsaxena21.github.io/JS-Visualizer/)
 
 ![screenshot](https://github.com/ankitsaxena21/Learn-JavaScript-Project/blob/master/Sreenshots/Screenshot_2020-05-02%20Learn%20JavaScript.png)
 
